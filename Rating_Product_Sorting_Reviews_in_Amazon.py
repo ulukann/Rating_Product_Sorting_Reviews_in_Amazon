@@ -59,7 +59,7 @@ pd.set_option('display.float_format', lambda x: '%.5f' % x)
 # Adım 1: Veri Setini Okutunuz ve Ürünün Ortalama Puanını Hesaplayınız.
 ###################################################
 
-df = pd.read_csv("C:/Users/Tugce.Dogan/Downloads/amazon_review.csv")
+df = pd.read_csv("RatingProductSortingReviewsinAmazon-221119-111357")
 df.head()
 df["overall"].mean()
 df["overall"].describe()
